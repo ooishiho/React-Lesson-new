@@ -4,8 +4,40 @@
   box-sizing: border-box;
 }
 
+/*slideDownの記述*/
 .box1 {
+  display: none;
   background-color: #ff0000;
+  height: 200px;
+  width: 200px;
+}
+
+/*sildeUpの記述*/
+.box2 {
+  background-color: #ffd700;
+  height: 200px;
+  width: 200px;
+}
+
+/*表示されるような記述*/
+.box3 {
+  display: none;
+  background-color: #ff00ff;
+  height: 200px;
+  width: 200px;
+}
+
+/*非表示にするような記述*/
+.box4 {
+  background-color: #9932cc;
+  height: 200px;
+  width: 200px;
+}
+
+/*スライドの背景色*/
+.box5 {
+  display: none;
+  background-color: #ff7f50;
   height: 200px;
   width: 200px;
 }
