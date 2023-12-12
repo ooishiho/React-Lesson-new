@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8>
+    <link rel="stylesheet" href="apply1.css">
+    <title>apply1 マウスの動き</title>
+    <!--ページ上部へ移動するだけの動きはhtml,cssでも可能だが、一瞬で終わるので、動きを指定するためjQを使用-->
+
+  </head>
+  <body>
+    <!--仮サイト表示-->
+    <h1>トップに戻るボタンを作成</h1>
+
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+
+    <!--戻るボタン、idの方がclassより早く処理される,一意である-->
+    <span id="back">
+      <!--"#"はページ上部へ移動するリンク-->
+      <a href="#">
+        <img src="img/arrow.png" alt="">
+      </a>
+    </span>
+
+    <!--使用するjsフォルダとjqを使用するためのlink-->
+   <script src="../jquery.min.js"></script>
+   <script src="apply1.js"></script>
+  </body>
+</html>

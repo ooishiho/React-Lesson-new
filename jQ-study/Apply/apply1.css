@@ -1,0 +1,32 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+/*h1タグを中央に寄せて上下に50pxの余白を作成*/
+h1{
+  text-align: center;
+  margin: 50px 0;
+}
+
+/*サイトに表示するboxサイズ、カラー指定*/
+.box{
+  height:300px;
+  width:600px;
+  margin:0 auto 50px;
+  background-color: #eee;
+}
+
+/*戻るボタンの表示場所指定*/
+#back{
+  /*fixed指定で常に同じ場所に表示されるようになる*/
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+/*戻るボタンのサイズ指定*/
+#back img{
+  width: 50px;
+}
